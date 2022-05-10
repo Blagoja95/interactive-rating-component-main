@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-#[LIVE APP](https://blagoja95.github.io/interactive-rating-component-main/)
+# [LIVE APP](https://blagoja95.github.io/interactive-rating-component-main/)
 
 ## Available Scripts
 
