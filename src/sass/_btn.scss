@@ -1,0 +1,43 @@
+.btn {
+  @extend %flexCenter;
+  flex-direction: row;
+
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  border: none;
+
+  background-color: hsl(215%, 18%, 20%);
+  color: $Light-Grey;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.btn--rating {
+  &:hover {
+    cursor: pointer;
+    background-color: $Orange;
+    color: $White;
+  }
+}
+
+.btn--active {
+  color: $White;
+  background-color: $Medium-Grey;
+}
+
+.submit {
+  color: $White;
+  background-color: $Orange;
+  border: none;
+  padding: 1.2rem 0;
+  font-size: 1.5rem;
+  border-radius: 10rem;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $Orange;
+    background-color: $White;
+    cursor: pointer;
+  }
+}

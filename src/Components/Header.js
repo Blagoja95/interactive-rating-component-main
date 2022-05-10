@@ -1,9 +1,11 @@
 import React from "react";
-
+import starSVG from "../images/icon-star.svg";
 const Header = () => {
   return (
     <div className="header">
-      <div className="star btn">Star</div>
+      <div className="btn btn--star">
+        <img className="star-img" src={starSVG} />
+      </div>
     </div>
   );
 };

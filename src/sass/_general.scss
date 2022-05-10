@@ -1,5 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+%flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.4rem;
+
+  @extend %flexCenter;
+
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+  background-color: $Very-Dark-Blue;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+  max-width: 33rem;
+  padding: 3rem 2rem;
+  background-color: $Dark-Blue;
+  border-radius: 2rem;
+}
+
+.title {
+  color: $White;
+  margin-bottom: 2rem;
+  font-size: 2.1rem;
+}
+
+.paragraph {
+  color: $Medium-Grey;
+  line-height: 1.4;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
 }
